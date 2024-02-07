@@ -29,5 +29,6 @@
 		<CollectCoverage>true</CollectCoverage>
 		<CoverletOutputFormat>json,cobertura</CoverletOutputFormat>
 		<IncludeTestAssembly>true</IncludeTestAssembly>
+		<!--<ExcludeByFile>**/*.g.cs</ExcludeByFile>-->
 	</PropertyGroup>
 </Project>
