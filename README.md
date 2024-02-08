@@ -6,7 +6,7 @@ For source generated code it's not possible to collect coverage information as n
 
 The execution time of the tests and coverage on my local PC is the following:
 
-![image](measure1.PNG)
+![image](measure2.PNG)
 
 Now when excluding the source generated code by adding a filter (`NetEscapades.EnumGenerators` has the suffix `*.g.cs`)
 
@@ -21,4 +21,4 @@ Now when excluding the source generated code by adding a filter (`NetEscapades.E
 
 The execution is much faster:
 
-![image](measure2.PNG)
+![image](measure1.PNG)
