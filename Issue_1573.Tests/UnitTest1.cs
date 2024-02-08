@@ -5,7 +5,7 @@ namespace Issue_1573.Tests
         [Fact]
         public void Test1()
         {
-            Assert.True(Class1.TryParse("something", out var value));
+            Assert.True(MyEnumExtensions.TryParse("something", out var value));
         }
     }
 }
